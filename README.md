@@ -1,5 +1,5 @@
-NTPAD
-=====
+# ![NTPAD](https://github.com/arielscarpinelli/ntpad/blob/master/logo/ntpad.png)
+
 
 NTPAD is a HID (Human Interface Device) driver for Windows 2000/XP which will allow you to use game console controllers (Playstation, N64, Genesis, SNES, NES, Atari, etc.) connected to the computer thru the parallel port. It supports all the connection intefaces from the original Directpad Pro; and supports joystick vibration emulating Force Feedback
 
