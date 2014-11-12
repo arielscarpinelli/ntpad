@@ -5,6 +5,11 @@ NTPAD is a HID (Human Interface Device) driver for Windows 2000/XP which will al
 
 Original project started in 2001 and was discontinued around 2003. Was a personal challange to convince a friend to move to Windows 2000 and he had a PSX controller adapted. Opensourced in 2014 (when I just found its code in my old computer at my mom's house :-D)
 
+Connection diagrams
+-------------------
+
+In the [wiki](https://github.com/arielscarpinelli/ntpad/wiki/Joystick-connection-schematics-diagrams)
+
 
 Credits
 -------
