@@ -1,0 +1,16 @@
+TARGETNAME=padEnum
+TARGETTYPE=DRIVER
+TARGETPATH=obj
+
+MSC_WARNING_LEVEL=-W3 -WX
+
+NTTARGETFILE0=mofcomp
+
+
+SOURCES= padenum.rc \
+         padenum.c \
+         pnp.c \
+	 power.c \
+         buspdo.c \
+	 wmi.c
+

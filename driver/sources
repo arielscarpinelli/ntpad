@@ -1,0 +1,16 @@
+TARGETNAME=ntpad
+TARGETTYPE=DRIVER
+DRIVERTYPE=WDM
+TARGETPATH=obj
+
+TARGETLIBS=$(DDK_LIB_PATH)\hidclass.lib \
+           $(DDK_LIB_PATH)\ntoskrnl.lib
+
+INCLUDES=inc;..\..\inc;$(DDK_INC_PATH)
+        
+SOURCES=hidgame.c       \
+        pnp.c           \
+        ioctl.c         \
+        hidjoy.c        \
+        scan.c          \
+        hidgame.rc

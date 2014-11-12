@@ -1,0 +1,738 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Japanese resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SHEETCAPTION        " NTPAD ç\ê¨ "
+    IDS_BUTTONS             " É{É^Éì"
+    IDS_MAIN                " éÂóv"
+    IDS_MAPPING             " É{É^ÉìÇÃínê}Çï`Ç≠Ç±Ç∆"
+    IDS_ABOUT               " Ç…Ç¬Ç¢Çƒ "
+    IDS_CONFIG              " ç\ê¨"
+    IDS_DISABLEFF           " ÉfÉBÉXÉGÉCÉuÉãóÕÇÃÉtÉBÅ[ÉhÉoÉbÉN "
+    IDS_DISABLEAX           " ÉfÉBÉXÉGÉCÉuÉãÇÕínê}Çï`Ç ïÄ (ÉQÅ[ÉÄÇÃÇΩÇﬂÇ…çDÇ›Ç»Ç≥Ç¢ DDR) "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SCAN                " ÉXÉLÉÉÉìÇÕíxÇÍÇÈ(êÑëEÇ≥ÇÍÇÈ4): "
+    IDS_DEATH               " íÜêS(éÄÇÃínë—) ÇÃñ≥ä¥âûÇÃÉpÅ[ÉZÉìÉg"
+    IDS_ANALOG              " ÉAÉiÉçÉO "
+    IDS_PRESSANDKEEP        " 1 ÅBïœÇÌÇÈÇΩÇﬂÇ…ÉpÉbÉhÇÃÉ{É^ÉìÇâüÇπÇŒÇªÇÍÇï€Ç¬Ç±Ç∆ÇÕâüÇµÇΩ"
+    IDS_THEN                " 2 ÅBÇªÇÍÇ©ÇÁÇ†Ç»ÇΩÇ™Ç÷ínê}Çï`Ç©ÇÍÇÈÇ◊Ç´ÇªÇÍÇñ]ÇﬁÉ{É^ÉìêîÇÇ©ÇøÇËÇ∆ñ¬ÇÁÇµÇ»Ç≥Ç¢"
+    IDS_FINALLY             " 3 ÅBç≈èIìIÇ…ÉpÉbÉhÇÃÉ{É^ÉìÇâï˙ÇµÇ»Ç≥Ç¢ÅB "
+    IDS_AXES                " ïÄ"
+    IDS_UNABLE              " ëïíuÇìæÇÈÇ±Ç∆Ç»Ç¢"
+    IDS_MAPPEDAS            " éüÇÃÇÊÇ§Ç…ínê}Çï`Ç©ÇÍÇÈ: "
+    IDS_UNMAPPED            " égópÇ»Çµ "
+    IDS_SUPPORTED           " éxÇ¶ÇÁÇÍÇΩå¯â : "
+    IDS_TESTEFFECT          " ÉeÉXÉgå¯â  "
+    IDS_MOTORS              " íºê⁄ÉÇÅ[É^Å[ÇÕÉeÉXÉgÇ∑ÇÈ: "
+    IDS_SMALL               " è¨Ç≥Ç¢"
+    IDS_BIG                 " ëÂÇ´Ç¢"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FEEDBACK            " óÕÇÃÉtÉBÅ[ÉhÉoÉbÉN"
+    IDS_STOP                " í‚é~"
+    IDS_ERRORFF             " å¯â ÇçÏê¨Ç∑ÇÈÇ±Ç∆Ç»Ç¢ÅB"
+    IDS_CONDITION           " Ç±ÇÃå¯â Çä¥Ç∂ÇÈÇΩÇﬂÇ…Ç†Ç»ÇΩÇÕïÄÇìÆÇ©Ç≥Ç»ÇØÇÍÇŒÇ»ÇÁÇ»Ç¢ÅB"
+    IDS_ALLWAYSANALOG       " èÌÇ…égópÉAÉiÉçÉOÇÃñ_"
+    IDS_DSHOCK2             " DualShock2 ÉAÉiÉçÉOÉ{É^ÉìÇâ¬î\Ç…ÇµÇ»Ç≥Ç¢"
+    IDS_CALIBRATE           " ñ⁄ê∑ÇËÇïtÇØÇ»Ç≥Ç¢"
+    IDS_SPEED               " ë¨ìxÇÇÊÇ≠ÇµÇ»Ç≥Ç¢ "
+    IDS_RESPONSE            " ÉWÉáÉCÉXÉeÉBÉbÉNÇÃâûìöÇÇÊÇ≠ÇµÇ»Ç≥Ç¢ "
+    IDS_SCANMODE            " ì«èëÉÇÅ[Éh"
+    IDS_X                   " ÉfÉWÉ^ÉãÉpÉbÉhÇÕ/ ñ_Çâ°Ç…ãéÇ¡ÇΩ"
+    IDS_Y                   " ÉfÉWÉ^ÉãÉpÉbÉhÇÕ/ ñ_ÇÃèc ãéÇ¡ÇΩ "
+    IDS_Z                   " âEÇÃñ_ÇÃèc "
+    IDS_RZ                  " â°ÇÃâEÇÃñ_"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CALIBRATEMSG        " Ç∑Ç◊ÇƒÇÃï˚å¸ÇÃïÄÇìÆÇ©ÇµÇ»Ç≥Ç¢, Å_n ÇÕÇªÇÍÇÁÇèWíÜÇ≥ÇπÇΩÇ∆Ç©ÇøÇËÇ∆åæÇ§âπÇÃè≥ë¯ãéÇÈ"
+    IDS_ANALOGPRESURE       " ÉAÉiÉçÉOÉ{É^ÉìÇÕÉåÉxÉãÇ…à≥óÕÇÇ©ÇØÇÈ "
+END
+
+#endif    // Japanese resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SHEETCAPTION        " NTPAD ∞t∏m "
+    IDS_BUTTONS             " ´ˆ? "
+    IDS_MAIN                " •D≠n "
+    IDS_MAPPING             " ´ˆ¨MÆg "
+    IDS_ABOUT               " ?§_ "
+    IDS_CONFIG              " ∞t∏m "
+    IDS_DISABLEFF           " ®œ?§O§œ?•¢•hØ‡§O "
+    IDS_DISABLEAX           " ®œ?¨MÆg•¢•hØ‡§O( ?§Ò?∂HªR¡–ªR¡–≠≤©R) "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SCAN                " ?∫À©µ? (4 ±¿ØÚ): "
+    IDS_DEATH               " ∑P???¶ §¿§Ò¶b??§§§ﬂ(¶∫§`?´∞) "
+    IDS_ANALOG              " º“¶° "
+    IDS_PRESSANDKEEP        " 1 °C´ˆ?™∫´ˆ?ßÔ?¶}•B´OØd•¶´ˆ "
+    IDS_THEN                " 2 °CµM¶Z??ßAØ¨∫@•¶≥Q¨MÆg?™∫´ˆ??¶r "
+    IDS_FINALLY             " 3 °C?•¨≥Ã¶Z?™∫´ˆ?°C "
+    IDS_AXES                " ? "
+    IDS_UNABLE              " ?™k?®˙?? "
+    IDS_MAPPEDAS            " ≥Q¨MÆg©M: "
+    IDS_UNMAPPED            " ?¶≥•Œ≥~ "
+    IDS_SUPPORTED           " §‰´˘™∫ß@•Œ: "
+    IDS_TESTEFFECT          " ??ß@•Œ "
+    IDS_MOTORS              " ´¸?????: "
+    IDS_SMALL               " §p "
+    IDS_BIG                 " §j "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FEEDBACK            " ?§O§œ? "
+    IDS_STOP                " §§§Ó "
+    IDS_ERRORFF             " ?™k?≥y??ß@•Œ°C "
+    IDS_CONDITION           " ßA•≤?≤æ???§F•H∑P???ß@•Œ°C "
+    IDS_ALLWAYSANALOG       " ?®œ•Œº“¶°¥“§l "
+    IDS_DSHOCK2             " ®œØ‡DualShock2 ?¶¸™´´ˆ? "
+    IDS_CALIBRATE           " Æ’≠„ "
+    IDS_SPEED               " ßÔµΩ≥t´◊ "
+    IDS_RESPONSE            " ßÔµΩ±±®Óß˝§œ? "
+    IDS_SCANMODE            " •i?§Ë¶° "
+    IDS_X                   " ?¶r¶°?/ •™¥“§l§Ù•≠ "
+    IDS_Y                   " ?¶r¶°?/ •™¥“§l´´™Ω "
+    IDS_Z                   " •ø⁄Ã™∫¥“§l´´™Ω "
+    IDS_RZ                  " •ø⁄Ã™∫¥“§l§Ù•≠ "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CALIBRATEMSG        " ≤æ??¶b©“¶≥§Ë¶V, \n Ød?•L?≥Q∂∞§§™∫©M???¶® "
+    IDS_ANALOGPRESURE       " º“¶°´ˆ??≠¢§Ù•≠ "
+END
+
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) (unknown sub-lang: 0x0) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, 0x0
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SHEETCAPTION        "ConfiguraciÛn de NTPAD"
+    IDS_BUTTONS             "Botones"
+    IDS_MAIN                "Principal"
+    IDS_MAPPING             "Mapeo"
+    IDS_ABOUT               "Acerca de"
+    IDS_CONFIG              "ConfiguraciÛn"
+    IDS_DISABLEFF           "Deshabilitar ForceFeedback"
+    IDS_DISABLEAX           "Deshabilitar mapeo de ejes (Dance Dance Revolution)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SCAN                "Retardo de lectura (4 recomendado):"
+    IDS_DEATH               "Porcentaje de insensibilidad en el centro (Zona Muerta)"
+    IDS_ANALOG              "An·logo"
+    IDS_PRESSANDKEEP        "1. Presione el boton del mando a cambiar y mantengalo"
+    IDS_THEN                "2. Clickee en el n˙mero de boton en el cual desea mapearlo."
+    IDS_FINALLY             "3. Finalmente, libere el boton del mando."
+    IDS_AXES                "Ejes"
+    IDS_UNABLE              "Imposible adquirir el dispositivo"
+    IDS_MAPPEDAS            "esta mapeado en:"
+    IDS_UNMAPPED            "Sin usar"
+    IDS_SUPPORTED           "Efectos soportados:"
+    IDS_TESTEFFECT          "Probar efecto"
+    IDS_MOTORS              "Prueba directa de los motores"
+    IDS_SMALL               "Chico"
+    IDS_BIG                 "Grande"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FEEDBACK            "Force Feedback"
+    IDS_STOP                "Detener"
+    IDS_ERRORFF             "Imposible crear el efecto"
+    IDS_CONDITION           "Debe mover los ejes para sentir el efecto"
+    IDS_ALLWAYSANALOG       "Siempre utilizar la palanca analÛgica"
+    IDS_DSHOCK2             "Habilitar botones analÛgicos DualShock2"
+    IDS_CALIBRATE           "Calibrar"
+    IDS_SPEED               "Mas velocidad"
+    IDS_RESPONSE            "Mejor respuesta del joystick"
+    IDS_SCANMODE            "Modo de lectura"
+    IDS_X                   "Horizontal del Pad Digital/Palanca Izq."
+    IDS_Y                   "Vertical del Pad Digital/Palanca Izq."
+    IDS_Z                   "Vertical de la Palanca Derecha"
+    IDS_RZ                  "Horizontal de la Palanca Derecha"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CALIBRATEMSG        "Mueva los ejes en todas direcciones,\ndejelos centrados y acepte."
+    IDS_ANALOGPRESURE       "Niveles de presiÛn de los botones analÛgicos"
+END
+
+#endif    // Spanish (Castilian) (unknown sub-lang: 0x0) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CPLSVR1_CONFIG DIALOG DISCARDABLE  0, 0, 236, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "",IDC_DISABLEFF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,
+                    4,199,12
+    CONTROL         "",IDC_DSHOCK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,
+                    40,218,10
+    CONTROL         "",IDC_DISABLEAX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,
+                    17,224,10
+    CONTROL         "",IDC_ALLWAYSANALOG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,28,197,10
+    LTEXT           "",IDC_SCAN,10,144,133,11
+    EDITTEXT        IDC_DELAY,145,142,17,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "",IDC_AXIS,5,50,223,81
+    GROUPBOX        "",IDC_SCANMODE,5,135,222,45
+    CONTROL         "",IDC_SPEED,"Button",BS_AUTORADIOBUTTON,10,156,136,9
+    CONTROL         "",IDC_RESPONSE,"Button",BS_AUTORADIOBUTTON,10,167,135,
+                    10
+    LTEXT           "X:",IDC_STATIC,15,61,8,12
+    COMBOBOX        IDC_EJE1,23,58,195,70,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Y:",IDC_STATIC,15,75,8,12
+    COMBOBOX        IDC_EJE2,23,72,196,70,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Z:",IDC_STATIC,14,91,8,12
+    COMBOBOX        IDC_EJE3,23,87,196,70,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Rz:",IDC_STATIC,11,104,11,12
+    COMBOBOX        IDC_EJE4,23,102,196,70,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "",IDC_DEATH,13,118,184,10
+    EDITTEXT        IDC_DEATHNUM,201,117,17,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+END
+
+IDD_CPLSVR1_PAGE1 DIALOG DISCARDABLE  0, 0, 231, 185
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "X:",IDC_STATIC,8,87,8,8
+    LTEXT           "Y:",IDC_STATIC,8,95,8,8
+    LTEXT           "Z:",IDC_STATIC,97,87,8,8
+    LTEXT           "Rz:",IDC_STATIC,96,95,12,8
+    LTEXT           "",IDC_BUTTONS,5,111,67,8
+    LTEXT           "0",IDC_XDATA,20,87,37,8
+    LTEXT           "0",IDC_YDATA,20,95,37,8
+    LTEXT           "0",IDC_ZDATA,110,87,37,8
+    LTEXT           "0",IDC_RZDATA,110,95,37,8
+    CONTROL         "",IDC_TESTJOYBTNICON,"TESTBUTTON",0x0,4,121,28,15
+    LTEXT           "",IDC_TELE1,7,9,80,74,NOT WS_GROUP
+    LTEXT           "",IDC_TELE2,96,9,80,74,NOT WS_GROUP
+    CONTROL         "",IDC_TESTJOYBTNICON2,"TESTBUTTON",0x0,32,121,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON3,"TESTBUTTON",0x0,60,121,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON4,"TESTBUTTON",0x0,88,121,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON5,"TESTBUTTON",0x0,116,121,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON6,"TESTBUTTON",0x0,144,121,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON7,"TESTBUTTON",0x0,172,121,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON8,"TESTBUTTON",0x0,200,121,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON9,"TESTBUTTON",0x0,3,139,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON10,"TESTBUTTON",0x0,31,139,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON11,"TESTBUTTON",0x0,59,139,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON12,"TESTBUTTON",0x0,87,139,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON13,"TESTBUTTON",0x0,115,139,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON14,"TESTBUTTON",0x0,143,139,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON15,"TESTBUTTON",0x0,171,139,28,15
+    CONTROL         "",IDC_TESTJOYBTNICON16,"TESTBUTTON",0x0,199,139,28,15
+    CONTROL         "",IDC_CALIBRATE,"TESTBUTTON",0x0,152,87,70,15
+    LTEXT           "",IDC_ANALOGPRESURE,3,160,165,8
+    LTEXT           "1/Rx:",IDC_STATIC,4,170,19,8
+    LTEXT           "2/Ry:",IDC_STATIC,53,170,19,8
+    LTEXT           "3/S1:",IDC_STATIC,107,170,19,8
+    LTEXT           "4/S2:",IDC_STATIC,170,170,19,8
+    LTEXT           "0",IDC_RXDATA2,25,170,25,8
+    LTEXT           "0",IDC_RYDATA2,74,170,31,8
+    LTEXT           "0",IDC_S1DATA2,128,170,37,8
+    LTEXT           "0",IDC_S2DATA2,192,170,37,8
+    LTEXT           "",IDC_JOYSTICKID,4,1,63,10
+END
+
+IDD_GENERIC_REMAP DIALOG DISCARDABLE  0, 0, 232, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "",IDC_TESTJOYBTNICON,"TESTBUTTON",0x0,4,40,28,15
+    LTEXT           "",IDC_MAPEDAS,37,44,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON2,"TESTBUTTON",0x0,4,56,28,15
+    LTEXT           "",IDC_MAPEDAS2,37,61,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON3,"TESTBUTTON",0x0,4,72,28,15
+    LTEXT           "",IDC_MAPEDAS3,37,76,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON4,"TESTBUTTON",0x0,4,88,28,15
+    LTEXT           "",IDC_MAPEDAS4,37,92,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON5,"TESTBUTTON",0x0,4,104,28,15
+    LTEXT           "",IDC_MAPEDAS5,37,108,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON6,"TESTBUTTON",0x0,4,120,28,15
+    LTEXT           "",IDC_MAPEDAS6,37,125,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON7,"TESTBUTTON",0x0,4,136,28,15
+    LTEXT           "",IDC_MAPEDAS7,37,140,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON8,"TESTBUTTON",0x0,4,152,28,15
+    LTEXT           "",IDC_MAPEDAS8,37,156,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON9,"TESTBUTTON",0x0,73,40,28,15
+    LTEXT           "",IDC_MAPEDAS9,107,44,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON10,"TESTBUTTON",0x0,73,56,28,15
+    LTEXT           "",IDC_MAPEDAS10,107,61,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON11,"TESTBUTTON",0x0,73,72,28,15
+    LTEXT           "",IDC_MAPEDAS11,107,76,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON12,"TESTBUTTON",0x0,73,88,28,15
+    LTEXT           "",IDC_MAPEDAS12,107,92,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON13,"TESTBUTTON",0x0,73,104,28,15
+    LTEXT           "",IDC_MAPEDAS13,107,108,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON14,"TESTBUTTON",0x0,73,120,28,15
+    LTEXT           "",IDC_MAPEDAS14,107,125,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON15,"TESTBUTTON",0x0,73,136,28,15
+    LTEXT           "",IDC_MAPEDAS15,107,140,34,8
+    CONTROL         "",IDC_TESTJOYBTNICON16,"TESTBUTTON",0x0,73,152,28,15
+    LTEXT           "",IDC_MAPEDAS16,107,156,34,8
+    PUSHBUTTON      "1",IDC_1,148,41,13,12
+    PUSHBUTTON      "2",IDC_2,148,54,13,12
+    PUSHBUTTON      "3",IDC_3,148,67,13,12
+    PUSHBUTTON      "4",IDC_4,148,80,13,12
+    PUSHBUTTON      "5",IDC_5,148,93,13,12
+    PUSHBUTTON      "6",IDC_6,148,106,13,12
+    PUSHBUTTON      "7",IDC_7,148,119,13,12
+    PUSHBUTTON      "8",IDC_8,148,131,13,12
+    PUSHBUTTON      "9",IDC_9,164,41,13,12
+    PUSHBUTTON      "10",IDC_10,164,54,13,12
+    PUSHBUTTON      "11",IDC_11,164,67,13,12
+    PUSHBUTTON      "12",IDC_12,164,80,13,12
+    PUSHBUTTON      "13",IDC_13,164,93,13,12
+    PUSHBUTTON      "14",IDC_14,164,105,13,12
+    PUSHBUTTON      "15",IDC_15,164,118,13,12
+    PUSHBUTTON      "16",IDC_16,164,131,13,12
+    PUSHBUTTON      "",IDC_UNMAPPED,149,145,78,13
+    PUSHBUTTON      "Reset",IDC_RESET,149,158,78,12
+    LTEXT           "",IDC_LINEA1,1,2,227,10
+    LTEXT           "",IDC_LINEA2,1,11,228,10
+    LTEXT           "",IDC_LINEA3,1,20,227,10
+    LTEXT           "",IDC_MAPPEDASTEXT,13,30,84,9
+    PUSHBUTTON      "",IDC_ANALOG1,182,41,46,13
+    PUSHBUTTON      "",IDC_ANALOG2,182,56,46,13
+    PUSHBUTTON      "",IDC_ANALOG3,182,71,46,13
+    PUSHBUTTON      "",IDC_ANALOG4,181,86,47,13
+END
+
+IDD_CPLSVR1_FEEDBACK DIALOG DISCARDABLE  0, 0, 201, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "",IDC_SUPPORTED,7,7,156,8
+    LISTBOX         IDC_EFFECTLIST,7,17,187,114,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_TESTEFFECT,8,134,77,14
+    CONTROL         "Slider1",IDC_BIG,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,117,167,75,12
+    CONTROL         "",IDC_SMALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,161,
+                    90,12
+    GROUPBOX        "",IDC_MOTORSTEST,1,151,196,30
+    LTEXT           "",IDC_BIGTEXT,122,157,68,8
+    PUSHBUTTON      "",IDC_STOP,103,134,84,14,WS_DISABLED
+END
+
+IDD_CPLSVR1_ABOUT DIALOG DISCARDABLE  0, 0, 236, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Shell Dlg"
+BEGIN
+    RTEXT           "Copyright (C) 2001-2005  Ariel Scarpinelli",IDC_STATIC,
+                    5,54,219,11
+    CONTROL         127,IDC_STATIC,"Static",SS_BITMAP,6,5,220,55
+    LTEXT           "Version 2.1",IDC_STATIC,5,68,219,13
+    LTEXT           "Website: www.ntpad.com.ar",IDC_STATIC,5,82,219,8
+    LTEXT           "E-Mail: triforce@fibertel.com.ar",IDC_STATIC,5,92,221,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CPLSVR1_CONFIG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 233
+    END
+
+    IDD_CPLSVR1_PAGE1, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_GENERIC_REMAP, DIALOG
+    BEGIN
+        RIGHTMARGIN, 229
+        BOTTOMMARGIN, 170
+    END
+
+    IDD_CPLSVR1_ABOUT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 233
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SHEETCAPTION        "NTPAD Configuration"
+    IDS_BUTTONS             "Buttons"
+    IDS_MAIN                "Main"
+    IDS_MAPPING             "Buttons Mapping"
+    IDS_ABOUT               "About"
+    IDS_CONFIG              "Config"
+    IDS_DISABLEFF           "Disable ForceFeedback"
+    IDS_DISABLEAX           "Disable axes mapping (for games like Dance Dance Revolution)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SCAN                "Scan Delay (4 recommended):"
+    IDS_DEATH               "Percentage of insensitivity in the center (Death Zone)"
+    IDS_ANALOG              "Analog"
+    IDS_PRESSANDKEEP        "1. Press the pad's button to remap and keep it pressed"
+    IDS_THEN                "2. Then click the button number you wish it to be mapped to"
+    IDS_FINALLY             "3. Finally release the pad's button."
+    IDS_AXES                "Axes"
+    IDS_UNABLE              "Unable to acquire the device"
+    IDS_MAPPEDAS            "is mapped as:"
+    IDS_UNMAPPED            "Unmapped"
+    IDS_SUPPORTED           "Supported Effects:"
+    IDS_TESTEFFECT          "Test Effect"
+    IDS_MOTORS              "Direct Feedback Motors Test:"
+    IDS_SMALL               "Small"
+    IDS_BIG                 "Big"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FEEDBACK            "Force Feedback"
+    IDS_STOP                "Stop"
+    IDS_ERRORFF             "Unable to create the effect."
+    IDS_CONDITION           "You must move the axes in order to feel this effect."
+    IDS_ALLWAYSANALOG       "Always use analog stick"
+    IDS_DSHOCK2             "Enable DualShock2 analog buttons"
+    IDS_CALIBRATE           "Calibrate"
+    IDS_SPEED               "Better speed"
+    IDS_RESPONSE            "Better joystick response"
+    IDS_SCANMODE            "Scanning Mode"
+    IDS_X                   "Digital Pad/Left Stick Horizontal"
+    IDS_Y                   "Digital Pad/Left Stick Vertical"
+    IDS_Z                   "Right Stick Vertical"
+    IDS_RZ                  "Right Stick Horizontal"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CALIBRATEMSG        "Move the axes in all directions, \nleave them centered and click OK"
+    IDS_ANALOGPRESURE       "Analog buttons pressure levels"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Italy) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SHEETCAPTION        "Configurazione di NTPAD\n"
+    IDS_BUTTONS             "Tasti"
+    IDS_MAIN                "Principale"
+    IDS_MAPPING             "Tracciato dei tasti"
+    IDS_ABOUT               "Circa"
+    IDS_CONFIG              "Config."
+    IDS_DISABLEFF           "Inabiliti ForceFeedback"
+    IDS_DISABLEAX           "Inabiliti il tracciato delle ascie (Dance Dance Rev.)   "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SCAN                "Colto fa ritardare (4 suggeriti):"
+    IDS_DEATH               "Percentuale di insensibilit‡ nel concentr (zona morta) "
+    IDS_ANALOG              "Analog"
+    IDS_PRESSANDKEEP        "1. Premi il tasto del pad per cambiare e mantenerlo"
+    IDS_THEN                "2. Scatti il numero del tasto che desiderate essere usati"
+    IDS_FINALLY             "3. Infine liberi il tasto del joystick. "
+    IDS_AXES                "Ascie"
+    IDS_UNABLE              "Incapace acquistare il dispositivo"
+    IDS_MAPPEDAS            "Ë tracciato come:"
+    IDS_UNMAPPED            "Senza uso"
+    IDS_SUPPORTED           "Effetti Sostenuti:"
+    IDS_TESTEFFECT          "Verifichi L'Effetto"
+    IDS_MOTORS              "Prova diriga dei motori:"
+    IDS_SMALL               "Piccolo"
+    IDS_BIG                 "Grande"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FEEDBACK            "Force Feedback"
+    IDS_STOP                "Arresto"
+    IDS_ERRORFF             "Incapace generare l'effetto. "
+    IDS_CONDITION           "Dovete spostare le ascie per ritenere questo effetto."
+    IDS_ALLWAYSANALOG       "Utilizzi sempre il bastone analogo "
+    IDS_DSHOCK2             "Permetta i tasti analogo di DualShock2 "
+    IDS_CALIBRATE           "Calibri"
+    IDS_SPEED               "Maggior velocit‡"
+    IDS_RESPONSE            "Migliori la risposta dil joystick "
+    IDS_SCANMODE            "Modo di lettura"
+    IDS_X                   "Orizzontale Digital Pad/Bastone di sinestro"
+    IDS_Y                   "Verticale Digital Pad/Bastone di sinestro"
+    IDS_Z                   "Verticale di bastone destro"
+    IDS_RZ                  "Orizzontale di bastone destro"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CALIBRATEMSG        "Sposti le ascie in tutti i sensi, \nlascili concentrati ed accetti"
+    IDS_ANALOGPRESURE       "Livelli di pressione dei tasti analogo"
+END
+
+#endif    // Italian (Italy) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SHEETCAPTION        "ConfiguraÁ„o de NTPAD"
+    IDS_BUTTONS             "Teclas"
+    IDS_MAIN                "Principal"
+    IDS_MAPPING             "Mapear"
+    IDS_ABOUT               "Sobre"
+    IDS_CONFIG              "ConfiguraÁ„o"
+    IDS_DISABLEFF           "Incapacite ForceFeedback"
+    IDS_DISABLEAX           "Incapacite mapeo dos machados (Dance Dance Revolution)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SCAN                "Atrasa do lido (4 recomendado):"
+    IDS_DEATH               "Porcentagem de insensibilidade no centro (Zona Morta)"
+    IDS_ANALOG              "An·logo"
+    IDS_PRESSANDKEEP        "1. Pressione a tecla do mando a cambiar e mantenhe-a"
+    IDS_THEN                "2. Do clique sobre a tecla com o novo n˙mero a usar."
+    IDS_FINALLY             "3. Finalmente, libere a tecla"
+    IDS_AXES                "Maches"
+    IDS_UNABLE              "Incapaz de adquirir o dispositivo."
+    IDS_MAPPEDAS            "est· mapeado em:"
+    IDS_UNMAPPED            "Sem usar"
+    IDS_SUPPORTED           "Efeitos suportados:"
+    IDS_TESTEFFECT          "Teste efeito"
+    IDS_MOTORS              "Teste direto dos motores"
+    IDS_SMALL               "Pequeno"
+    IDS_BIG                 "Grande"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_FEEDBACK            "Force Feedback"
+    IDS_STOP                "Batente"
+    IDS_ERRORFF             "Incapaz do criar o efeito"
+    IDS_CONDITION           "VocÍ deve mover os machados a fim sentir este efeito."
+    IDS_ALLWAYSANALOG       "Sempre usar vara analÛgica"
+    IDS_DSHOCK2             "Permita teclas analÛgicas do DualShock2"
+    IDS_CALIBRATE           "Calibre"
+    IDS_SPEED               "Mais velocidade"
+    IDS_RESPONSE            "Melhor resposta"
+    IDS_SCANMODE            "Modo da leitura"
+    IDS_X                   "Horizontal do Pad Digital/Vara Esqueirda."
+    IDS_Y                   "Vertical do Pad Digital/Vara Esqueirda."
+    IDS_Z                   "Vertical da Vara Dereita"
+    IDS_RZ                  "Horizontal da Vara Dereita"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CALIBRATEMSG        "Mova os machados em todos os sentidos, \ndeixe-os centrados e do clique em OK."
+    IDS_ANALOGPRESURE       "NÌveis da press„o das teclas analÛgicas"
+END
+
+#endif    // Portuguese (Brazil) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) (unknown sub-lang: 0xB) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, 0xB
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TELE                BITMAP  DISCARDABLE     "tele.bmp"
+IDB_OFF                 BITMAP  DISCARDABLE     "off.bmp"
+IDB_ON                  BITMAP  DISCARDABLE     "on.bmp"
+IDB_LON                 BITMAP  DISCARDABLE     "lon.bmp"
+IDB_LOFF                BITMAP  DISCARDABLE     "loff.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "logo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDB_PUNTITO             RCDATA  DISCARDABLE     "puntito.tga"
+#endif    // Spanish (Castilian) (unknown sub-lang: 0xB) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

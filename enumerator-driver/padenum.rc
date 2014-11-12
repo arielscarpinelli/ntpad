@@ -1,0 +1,13 @@
+#include <windows.h>
+
+#include <ntverp.h>
+
+#define VER_FILETYPE    VFT_DLL
+#define VER_FILESUBTYPE VFT2_UNKNOWN
+#define VER_FILEDESCRIPTION_STR     "Enumerador NTPAD"
+#define VER_INTERNALNAME_STR        "padenum.sys"
+#define VER_ORIGINALFILENAME_STR    "padenum.sys"
+
+#include "common.ver"
+
+MofResourceName MOFDATA padenum.bmf

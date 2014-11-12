@@ -1,0 +1,163 @@
+<html>
+<head lang="es-AR">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+<!--
+A:hover{color:cyan}
+A:link, A:visited, A:active {text-decoration:none}
+-->
+</style>
+</head>
+<body bgcolor="000000" text="#ffffff" vlink="#0000ff">
+<font face="verdana" size="2">
+<b><u><font face="verdana" size="4" color="#FFFF00">Novedades</font></b></u>
+
+<ul type="circle">
+<li><font face="verdana" size="2" color="#0000FF">Version XP 2.01</font></li>
+</ul>
+
+<ul type="disc">
+<li>Solucionados problemas de uso y ForceFeedback para joysticks que no fueran el primero</li>
+</ul>
+<ul type="circle">
+<li><font face="verdana" size="2" color="#0000FF">Version XP 2.0</font></li>
+</ul>
+
+<ul type="disc">
+<li>Agregada hoja de propiedades para el panel de control</li>
+<li>Nuevo instalador</li>
+<li>Viene en 6 idiomas</li>
+<li>Solucionados problemas con soporte de NES y multitap PSX</li>
+<li>Modificado el soporte de FF para que insuma MUCHOS menos recursos</li>
+<li>Agregados los efectos Damper, Inertia y Friction</li>
+<li>Arreglado el efecto Custom Force</li>
+<li>Arreglado bug en el control de la duracion y repeticion de los efectos</li>
+<li>Solucionados los problemas de cuelgues con EPSXE y ZSNES</li>
+<li>Agregada la opcion para utilizar cualquier puerto</li>
+<li>Agregado control manual de scan delays</li>
+<li>Agregado la opcion de "siempre analogico" sin importar el estado del LED</li>
+<li>Agregado soporte para mapeo de ejes.</li>
+<li>Agregado un nuevo modo de lectura mas fiel a los datos el joystick (mas lento...)</li>
+</ul>
+
+<ul type="circle">
+<li><a href="history.txt">Versiones anteriores</a></li>
+</ul>
+
+<b><u><font face="verdana" size="4" color="#FFFF00">¿Qué es?</font></b></u><br><br>
+NTPAD es un driver que permite utilizar los joysticks de consolas de video juegos conectandolos
+al puerto paralelo.<br>
+El driver es para Windows 2000 y XP. Nada mas. Para Windows 9x existe el
+DirectPad Pro.<br>
+<br>
+
+<b><u><font face="verdana" size="4" color="#FFFF00">¿Qué soporta?</font></b></u><br><br>
+NTPAD Soporta:<br>
+
+<ul type="disc">
+<li> Hasta 2 pads Playstation / PSONE / PSX2 con la interfaz original DirectPad</li>
+<li> Hasta 5 pads Playstation / PSONE / PSX2 con la interfaz MEGATAP o Multitap</li>
+<li> Hasta 4 pads Playstation / PSONE / PSX2 conectando una Multitap como un "pad 1".</li>
+<li> Hasta 5 pads Nintendo y Super Nintendo con la interfaz original DirectPad  o SNESKey </li>
+<li> Hasta 4 pads Nintendo 64 con la interfaz original DirectPad.</li>
+<li> Hasta 1 pad Genesis con la interfaz original DirectPad.</li>
+<li> Hasta 2 pad Genesis con la interfaz nueva. Esta tambi&eacute;n funciona en paralelos "modernos"</li>
+<li> Hasta 2 pad Saturn con la interfaz original DirectPad.</li>
+<li> Un solo joystick Atari o Commodore 64 con la interfaz original DirectPad.</li>
+</ul>
+<br>
+
+<b><u><font face="verdana" size="4" color="#FFFF00">Instalaci&oacute;n y Configuraci&oacute;n</font></b></u><br><br>
+
+<p style="text-align:justify;">El proceso de instalaci&oacute;n y/o actualizaci&oacute;n es bastante simple<br>
+
+Se debe ejecutar el instalador que abrirá el asistente de instalaci&oacute;n.<br>
+Una vez dentro, pasada la pantalla de bienvenida y selecci&oacute; de idioma, se debe elegir si instalar, reconfigurar o desinstalar el driver.<br>
+Las primeras dos opciones tienen un comportamiento similar, con la diferencia que la segunda es mas rapida pero solo sirve para cuando la ultima versi&oacute;n de NTPAD se encuentra instalada.<br>
+La ultima simplemente desinstala el driver.<br>
+Una vez elegida la opci&oacute;n de instalaci&oacute;n se pasa a la pantalla de selecci&oacute;n.<br>
+All&iacute; se debe seleccionar la cantidad de controles a utilizar, luego el tipo, el ID y el puerto de cada uno.<br>
+El ID corresponde al n&uacute;mero de joystick seg&uacute;n la interfaz usada (ej: El primer joystick del interfaz de PSX es el ID 1, el segundo es ID 2, etc.)<br>
+El puerto corresponde con el número de puerto del paralelo a utilizar. Normalmente es LPT1 (0x378) sin embargo esto puede variar.<br>
+T&iacute;picamente, los n&uacute;meros de puerto son los siguientes:<br><br>
+</p>
+<table BGColor=#000000  border=2 bordercolor=#FFFF00 cellpadding=5 cellspacing=0>
+<tr>
+   <td>Puerto</td>
+   <td>N&uacute;mero</td>
+</tr>
+<tr>
+   <td>LPT1</td>
+   <td>0x378</td>
+</tr>
+<tr>
+   <td>LPT2</td>
+   <td>0x278</td>
+</tr>
+<tr>
+   <td>LPT3</td>
+   <td>0x3B8</td>
+</tr>
+</table><br>
+<br>
+<p style="text-align:justify;">También existe la posibilidad de que el n&uacute;mero de puerto no corresponda con ninguno de los antes citados, esto se da generalmente cuando se usan placas PCI con puertos paralelos adicionales.<br>
+Para averiguar el n&uacute;mero de puerto, basta con ir al administrador de dispositivos, pedir las propiedades del puerto y fijarse en la ficha de recursos la primera linea de entrada / salida (si es que hay mas de una). El primer número del rango de esa linea es el que se debe especificar en el instalador.<br>
+<br>
+Luego de haber configurado esto se procede a la instalaci&oacute;n en si del driver. Durante este proceso es importante ACEPTAR cualquier advertencia sobre firmas de controladores, asi como tambi&eacute;n elegir la opci&oacute;n de b&uacute;squeda autom&aacute;tica de los drivers cada vez que aparezca el asistente para nuevos dispositivos.<br>
+Una vez instalado el driver, los joysticks se encuentran en condiciones de ser utilizados, sin embargo, es recomendable primero configurar a gusto cada uno.<br>
+Para configurar un joystick, basta con ir a Dispositivos de Juego en el Panel de Control y pedir propiedades de "NTPAD con ForceFeedback".<br>
+La pantalla de propiedades consta de 5 fichas:<br></p>
+
+<ul type="circle">
+
+<li><font face="verdana" size="2" color="#0000FF">Principal</font></li><br>
+<p>Simplemente es una pantalla de control para verificar el funcionamiento del joystick.</p>
+
+<li><font face="verdana" size="2" color="#0000FF">Mapeo</font></li>
+<p style="text-align:justify;">Esta ficha permite el cambio en la interpretaci&oacute;n de los botones.<br>
+Para cambiar un boton, basta con mantenerlo presionado en el joystick (su testigo se "iluminar&aacute;"), y mantenerlo mientras que se hace click en el nuevo n&uacute;mero a utilizar de la fila de botones de la derecha. El cambio quedar&aacute; indicado a la derecha del testigo del boton. Para que los cambios surjan efecto se debe presionar "Aplicar", de lo contrario no se guardar&aacute;n. Si se presiona Reset todos volver&aacute;n a su estado por defecto.<br>
+</p>
+
+<li><font face="verdana" size="2" color="#0000FF">ForceFeedback</font></li>
+<p style="text-align:justify;">Aqu&iacute; se puede probar el correcto funcionamiento de los motores.<br>
+Hay dos formas, eligiendo un efecto de la lista y probandolo para sentirlo, o directamente utilizando los controles de abajo para ajustar el nivel de fuerza aplicada en los motores.</p>
+
+<li><font face="verdana" size="2" color="#0000FF">Configuraci&oacute;n</font></li>
+<p style="text-align:justify;">El nombre lo dice todo :-).<br>
+<i><b>Deshabilitar el mapeo de ejes:</b></i> Hace que los controles digitales utilizen sus ejes como botones.<br>
+<i><b>Siempre utilizar la palanca analogica:</b></i> Hace que el Dualshock este fijo en modo analogico<br>
+<i><b>Habilitar botones analogicos Dualshock</b>2:</i> Hace que algunos botones (los mapeados como Analogo 1 a 4) actuen como ejes utilizando su nivel de presión<br>
+<i><b>Mapeo de ejes</b></i>: Permite elegir libremente como los ejes del joystick son interpretados como ejes DirectInput.<br>
+<i><b>Zona Muerta:</b></i> Es el porcentaje de movimiento desde el centro que se sigue considerando como el centro exacto. Un 10% por ejemplo, indica que si la palanca
+esta corrida un 10% mas o un 10% menos que el centro, se siga considerando como centrada. Muy util a medida que se van desgastando los resortes de los joysticks.<br>
+<i><b>Retardo de lectura:</b></i> Es el tiempo del joystick, 4 es lo recomendado, sin embargo algunas PC ejecutan esto demasiado rapido y es necesario aumentar el valor.<br>
+<i><b>Modos de lectura</b>:</i> En el caso de "mejor respuesta" la variacion no es mucha, pero la lectura es mas constante lo cual puede mejorar un poco la fidelidad de los botones (y tambien disminuir FPS)<br>
+</p>
+
+<li><font face="verdana" size="2" color="#0000FF">Acerca de</font></li>
+<br>
+<p>Informaci&oacute;n de contacto y el logo :-)</p>
+</ul>
+<br>
+
+<br><b><u><font face="verdana" size="4" color="#FFFF00">ForceFeedback</font></b></u><br><br>
+El driver soporta todos los efectos de DirectInput<br>
+<br>
+Para los pads PSX/PS1/PS2 en la interfaz "hasta 2 pads", los efectos se copian de un pad al 
+otro. Esto no sucede en la interfaz "hasta 5 pads" por eso es la que recomiendo si de 
+ForceFeedback se trata<br>
+<br>
+La interfaz N64 tambien reproduce los efectos correctamente.
+<br>
+<br><b><u><font face="verdana" size="4" color="#FFFF00">Contacto</font></b></u><br><br>
+Este driver es eMailWare. Usalo todo lo que quieras, pero solo te pido que me
+mandes un mail, ya que quiero conocer a toda la gente que use mi driver.<br>
+<br>
+Homepage: <a href="http://www.ntpad.com.ar" target="_blank">www.ntpad.com.ar</a><br>
+E-mail: <a href="mailto:triforce@altavista.net">triforce@altavista.net</a><br>
+<br>
+Son bienvenidas quejas, criticas, problemas, consejos, ayuda psiquiatrica,
+etc., pero por favor, antes de hacerme consultas LEAN este texto.<br>
+
+</font>
+</body>

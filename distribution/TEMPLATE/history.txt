@@ -1,0 +1,166 @@
+- Version XP 2.0
+
+. Agregada hoja de propiedades para el panel de control. 
+. Nuevo instalador. 
+. Viene en 6 idiomas. 
+. Solucionados problemas con soporte de NES y multitap PSX. 
+. Modificado el soporte de FF para que insuma MUCHOS menos recursos. 
+. Agregados los efectos Damper, Inertia y Friction. 
+. Arreglado el efecto Custom Force. 
+. Arreglado bug en el control de la duracion y repeticion de los efectos. 
+. Solucionados los problemas de cuelgues con EPSXE y ZSNES. 
+. Agregada la opcion para utilizar cualquier puerto. 
+. Agregado control manual de scan delays. 
+. Agregado la opcion de "siempre analogico" sin importar el estado del LED. 
+. Agregado soporte para mapeo de ejes.. 
+. Agregado un nuevo modo de lectura mas fiel a los datos el joystick (mas lento...). 
+
+- Version XP 1.1
+
+. Instalador: Soporte para reconfiguración dinamica. Osea, poder cambiar la config. 
+  sin reinstalar Soporte de temas XP (ahora se ve lindo :-) )
+
+. ForceFeedback: Mas mejoras en la dll.
+
+. Playstation: Soporte para los botones analogicos del Dualshock2.
+  Soporte para conectar un Multitap como si de un pad solo se tratara y poder leer 
+  los 4 que este tiene conectado.
+
+. Genesis: Nueva interfaz que es compatible con los paralelos "modernos" y que soporta
+  ademas dos pads. (Chekea el website para ver el circuito)
+
+. Nintendo 64: Arreglados los problemas de ejes y botones fantasma.
+
+. NES: Soporte para NES agregado. Ademas soporta joysticks de clones como Family Game.
+
+- Version XP 1.05
+. Esta es una version experimental, pruebenla y diganmen los resultados
+  en cuanto a velocidad, respuesta, frame skips, etc.
+
+- Version XP 1.04
+. Mas correcciones en lo que respecta joys de N64.
+. Limitada la cantidad de pads a 5.
+. Mas correcciones al FF.
+
+- Version XP 1.02
+. Mejor Emulacion de ForceFeedback en algunos juegos
+. De acuerdo con lo indicado por Fenix, ahora el stick de N64 deberia
+  funcionar bien.
+
+- Version XP 1.0
+Novedades:
+
+. Soporte Funcional de ForceFeedback !!!!!!!! (ver mas a bajo en la
+  sección de FF.
+. Soporte de ForceFeedback para PSONE!
+. Soporte de ForceFeedback para N64
+. Soporte para los puertos LPT3, LPT4 y de NEC
+. Lectura por medio de thread separado lo que lo hace mucho más veloz y preciso (lee entre
+  100 y 500 veces por segundo).
+. Solucionados problemas de ejes y botones fantasma para joysticks no PSX.
+
+- Version XP beta 6
+Novedades:
+
+. Soporte para los joysticks de N64, Genesis, Saturn y Atari
+. Instalador totalmente renovado con formato de asistente y desinstalador
+. Soporte hasta 10 joysticks con enumerador propio
+  (sin necesidad de un puerto joystick)
+. Remapeo de botones
+. Mejor respuesta del joystick aumentando el escaneo a 30 veces por segundo
+. Opcion "DanceRevolution" que no usa ejes permitiendo apretar todos
+  los direccionales al mismo tiempo.
+
+
+- Version XP beta 5
+
+Menos velocidad limtando la lectura a 23 veces por segundo :-((((((((((
+En realidad la diferencia no se nota en FPS pero si en respuesta del joystick.
+
+SOPORTE PARA LOS PAD DE PSONE (deshabilitando el forcefeedback
+en el instalador)
+
+
+- Version XP beta 4
+
+Mas velocidad limitando la lectura a 18 veces por segundo.
+No creo poder sacarle mas. Es lo mas acertado de acuerdo con mi analisis
+cientifico de "apretar rapido el botoncito" :-).
+
+Solucionados los problemas de lectura del joy de PSX que aparecieron con
+la beta 1. Ahora deberia funcionar bien, incluso en maquinas donde el joy
+no era detectado con la version 1.22.
+
+Agregado control de deathzone en el instalador. (Se biene el remapeo...)
+
+Grandes avances en ForceFeedback. Si bien no van poder hacer que el joy
+vibre con los juegos por ahora, los juegos van a poder detectar e iniciar
+la parte del FF.
+
+- Version XP beta 3
+
+Los direccionales de SNES no se mapeaban ejes. Ahora si.
+
+- Version XP beta 2
+
+Peque¤o error de instalaci¢n que no lo instalaba :-))))))
+
+- Version XP beta 1
+
+Mejorado el instalador para cuando el driver esta siendo actualizado de
+versiones anteriores. 
+
+Agregada la parte configuracion en el instalador.
+
+Mas velocidad!. Ademas es mas indepedendiente el procesador donde corre, por
+lo que deberia detectar siempre cuando el joystick esta conectado (Bug Fix).
+
+Soporte para el pad de SNES.
+
+Soporte para interfaces armadas con una multitap.
+
+Agregada la posibilidad de usar el analógico de la derecha como principal
+(ejes X, Y) y el de la izquierda como secundario (Z y de rotación Z)
+
+- Version 1.22
+
+VELOCIDAD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!. No mas frameskips cuando usas juegos
+emuladores y lo que quieras!!!!!!!!
+
+- Version 1.21
+
+Solucionado el problema "no se encuentra clave del puerto de joystick"
+para el instalador sobre XP. Nota: Tal vez sea solo por que tengo nada mas
+que un PII 350, pero la instalación en XP se toma sus minutos de "no hacer
+nada".
+
+- Version 1.2
+
+Instalador hecho a nuevo (de nuevo!!!!!!) para que el driver no se valla
+cuando apagas la PC. Ademas, permite sacar el driver directamente desde
+joysticks del panel de control y anda perfecto con Windows XP.
+
+Que paso con la dichosa version XP????????
+Para varios que se comunicaron con migo (sobretodo los que pedian el soporte
+de SNES) la proxima version del driver era la XP. Bueno, eso sigue en pie.
+Esta es una simple version intermedia que instala bien de una bendita vez el
+driver.
+
+- Versión 1.1
+
+Nuevo instalador totalmente automático. Instala solo los dos drivers para soportar
+los dos joysticks.
+
+Soporte para dos joysticks
+
+Soporte para LPT2 (automático)
+
+Algún avance en el force feedback. Tal vez en la próxima versión cambie la
+metodología del FF y que pase de interpretar las llamadas desde el driver a
+interpretarlas desde una DLL que es mucho más simple. Por el momento sigue 
+sin funcionar. 
+
+- Versiones Anteriores
+
+Desde su primera versión hubieron un par que agregaron y mejoraron un poquito
+el instalador, pero nada importante.

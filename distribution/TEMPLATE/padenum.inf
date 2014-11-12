@@ -1,0 +1,59 @@
+; PID_2222
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%MSFT%
+DriverVer=04/01/2002,1.0.5.0
+;CatalogFile=padenum.cat
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+
+[SourceDisksFiles]
+padenum.sys  = 1,,
+
+;*****************************************
+; ToasterBus  Install Section
+;*****************************************
+
+[Manufacturer]
+%StdMfg%=Standard
+
+[Standard]
+;
+; These are the toaster bus pnp ids
+;
+
+%PadBus.DeviceDesc%=PadBus_Device, root\padenum
+
+[PadBus_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+padenum.sys
+
+
+;-------------- Service installation
+[PadBus_Device.NT.Services]
+AddService = padenum,%SPSVCINST_ASSOCSERVICE%, padenum_Service_Inst
+
+; -------------- busenum driver install sections
+[padenum_Service_Inst]
+DisplayName    = %padenum.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START 
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\padenum.sys
+LoadOrderGroup = Extended Base
+
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+MSFT = "Triforce"
+StdMfg = "Dispositivos NTPAD"
+DiskId1 = "Carpeta donde se descomprimio el NTPAD"
+PadBus.DeviceDesc = "Enumerador de dispositivos de NTPAD"
+padenum.SVCDESC = "Enumerador de dispositivos de NTPAD"

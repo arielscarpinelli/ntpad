@@ -1,0 +1,171 @@
+- Version XP 2.1
+
+.  Fixed problems with SP2. It now uses DirectX standard method to detect witch pad to configurate so it won't fail again.
+.  Very optimized scanning code for N64 and PSX.
+.  Fixed installer, UNINSTALL DOES SO CORRECTLY
+.  Fixed installer, now the reconfigurate option works correctly.
+.  Fixed random "analog led turned off" bug by avoiding Windows Parallel port driver to write to the port.
+
+
+- Version XP 2.0
+
+.  Added property sheet for the Control Panel
+.  New installer
+.  It comes in 6 languages
+.  Solved problems with NES support and multitap PSX
+.  Modified the FF support so that it consumes MANY less resources
+.  Added the effects Damper, Inertia and Friction
+.  Fixed the Custom Force effect
+.  Fixed bug in the control of the duration and repetition of the effects
+.  Solved the problems of hangs with EPSXE and ZSNES
+.  Added the option to use any port
+.  Added manual control of scan delays
+.  Added the option of &quot;always analog&quot; without concerning the state of the LED
+.  Added support for axes mapping.
+.  Added a new scaning mode more faithful to the joystick data (but slow...)
+
+
+- Version XP 1.1
+
+. Installer: Support for dynamic reconfiguration. That means that you can change the
+  the config with out reinstall the driver.
+  Support for XP themes (now it looks cute :-) )
+
+. ForceFeedback: More fixes in the DLL.
+
+. Playstation: Support for the Dualshock2 analog buttons.
+  Support for connecting a Multitap like a single pad and reading the four that it has
+  connected.
+
+. Genesis: New interface witch is compatible with the new parallel ports and supports two pads
+  (Check the website to see the circuit)
+
+. Nintendo 64: Fixed axes and phantom button problems.
+
+. NES: Added NES support. It also supports clone NES pads such the Family Game ones.
+
+- Version XP 1.05
+. This is an experimental version. Test it and tell me the results about
+  speed, response, frame skips, etc.
+
+- Version XP 1.04
+. More corrections in n64 scan code
+. Now the maximun of pads is 5.
+. More corrections to the FF.
+
+- Version XP 1.02
+
+. Better ForceFeedback emulation in some games.
+. Acording to the indicted by Fenix, now the N64 should work right.
+
+- Version XP beta 1.0
+New developments:
+
+. Functional ForceFeedback support !!!!!!!! (read down in the FF section)
+. PSONE ForceFeedback support!
+. N64 ForceFeedback support.
+. LPT3, LPT4 and NEC parallel ports support.
+. The read is now made by a separated thread who makes it much faster
+  and accurate. (reads beetwhen 100 and 500 times per second).
+. Solved phantom axes and buttons problems for no PSX pads.
+
+- Version XP beta 6 
+
+New developments: 
+
+. Support for joysticks of N64, Genesis, Saturn and Atari 
+. Installer totally renewed with wizard format and uninstaller 
+. Support up to 10 joysticks with own enumerador (with no need of a joystick port) 
+. Button remaping
+. Better answer of joystick increasing the scan to 30 times by second 
+. Option " DanceRevolution " that does not use axes allowing to tighten all the 
+  directional buttons at the same time. 
+
+- Version XP beta 5
+
+Less speed limiting the read to 23 veces por segundo :-((((((((((
+Actually you shouln't note difference in FPS but in joystick response.
+
+SUPPORT FOR PSONE PADS (disabling the forcefeedback
+in the installer)
+
+- Version XP beta 4
+
+More speed limiting the read to 18 times per second.
+I don't thing that I'll take more off. Its the most accurate acording to 
+my cientific analisys "pressing the button quickly".
+
+Fixed the reading problems of the PSX pad whose appeared in beta 1. 
+Now it should work well, even in machines where the pad wasn't detected 
+with version 1.22.
+
+Added deathzone control in the installer. (Remap is comming...)
+
+Big improvents with ForceFeedback. You won't be able to make the pad
+vibrate with the games for the moment, but they will detect and start the FF.
+
+- Version XP beta 3
+
+The SNES directionals were not mapped as axes. Now do.
+
+- Version XP beta 2
+
+Little instalation bug who did not install :-))))))
+
+- Version XP beta 1
+
+Better installer for when you are updating the driver from prior versions.
+
+Add the configuration section in the installer.
+
+More speed!. Also is more independat from the processor where is running,
+so it should detected allways when the joystick is connected (Bug fix).
+
+Support for the SNES pad.
+
+Support for Multitap based interfaces.
+
+Add the option of using the right analog stick as the main (axes X, Y)
+and the left one as secundary (Z and rotation Z)
+
+- Version 1.22
+
+SPEED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!. No more frameskips when you play games
+emulators and what ever you want!!!!!!!!
+
+- Version 1.21
+
+Fixed the problem "no se encuentra clave del puerto de joystick" when you
+install over XP. Note: Maybe its just because I only have a PII 350, but
+the instalation over XP takes its minutes of "doing nothing".
+
+- Version 1.2
+
+Installer made to new (agin!!!!!!) so the driver does not disapear
+when you turn off the PC. Also allows to remove the driver directly from
+the joysticks control panel and works perfectly with Windows XP.
+
+What happened with the XP version????????
+For all those who got comunicated with me (specially the ones who asked
+for the SNES support) the next version of the driver was going to be the XP.
+Well, that stills being thruth. This is a simple half version that installs
+well the driver.
+
+- Version 1.1
+
+New installer totally automatic. Installs the 2 drivers by it self for get
+the support of the 2 joysticks.
+
+Support for 2 joysticks
+
+Support for LPT2 (automatic)
+
+Some advance in the force feedback. Maybe in the next version I change the
+method of the FF. It will change from interpreting the FF calls inside the
+driver to interpreting from an external DLL witch is much more simplee.
+For the moment stills with out working. 
+
+- Prior Versions
+
+Since its first version there where a couple who added and got better a
+little the installer, but nothing important.

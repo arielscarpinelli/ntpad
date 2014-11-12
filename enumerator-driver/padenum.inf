@@ -1,0 +1,70 @@
+;/*++
+;
+;Copyright (c) 1990-1999 Microsoft Corporation All rights Reserved
+;
+;Module Name:
+;
+;    BUS.INF
+;
+;Abstract:
+;    INF file for installing toaster bus enumerator driver
+;
+;--*/
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%MSFT%
+DriverVer=24/02/2002, 1.00.0000
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+
+[SourceDisksFiles]
+busenum.sys  = 1,,
+
+;*****************************************
+; ToasterBus  Install Section
+;*****************************************
+
+[Manufacturer]
+%StdMfg%=Standard
+
+[Standard]
+;
+; These are the toaster bus pnp ids
+;
+
+%ToasterBus.DeviceDesc%=ToasterBus_Device, root\padenum
+
+[ToasterBus_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+busenum.sys
+
+
+;-------------- Service installation
+[ToasterBus_Device.NT.Services]
+AddService = busenum,%SPSVCINST_ASSOCSERVICE%, busenum_Service_Inst
+
+; -------------- busenum driver install sections
+[busenum_Service_Inst]
+DisplayName    = %busenum.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START 
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\padenum.sys
+LoadOrderGroup = Extended Base
+
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+MSFT = "Trufirce"
+StdMfg = "Dispostivos NTPAD"
+DiskId1 = "Disco de NTPAD"
+ToasterBus.DeviceDesc = "Enumerador de dispositivos NTPAD"
+busenum.SVCDESC = "Enumerador de dispositivos NTPAD"

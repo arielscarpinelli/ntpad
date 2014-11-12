@@ -1,0 +1,581 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "asia.rc"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) (unknown sub-lang: 0x0) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, 0x0
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TITLE1              "Instalando / Desinstalando el driver"
+    IDS_SUBTITLE1           "Aguarde un momento por favor"
+    IDS_TITLE2              "¡Felicitaciones! NTPAD finalizó su instalación correctamente"
+    IDS_TITLE3              "Seleccione que hacer"
+    IDS_TITLE4              "Seleccione la cantidad y el tipo de los dispositivos a instalar"
+    IDS_UNINSTALL           "NTPAD se ha quitado completamente de su PC"
+    IDS_RECONFIG            "NTPAD se ha reconfigurado"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PORT                "Puerto"
+    IDS_LANG                "Por favor seleccione su idioma:"
+    IDS_END1                "NTPAD se instaló correctamente."
+    IDS_HOWMUCH             "Seleccione la cantidad de pads que se dispone a conectar al mismo tiempo:"
+    IDS_NOW                 "Seleccione el tipo, puerto e ID de cada uno."
+    IDS_WELLCOME            "Bienvenido al asistente de instalación de NTPAD"
+    IDS_TYPE                "Tipo"
+    IDS_CHAMULLO            "Este asistente le ayudará a instalar, configurar o desinstalar NTPAD. "
+    IDS_README              "Ver el archivo de ayuda"
+    IDS_INSTALL             "Instalar, actualizar y/o configurar el driver"
+    IDS_RECONFIGURE         "Reconfigurar el driver ya instalado."
+    IDS_DOUNINSTALL         "Desinstalar el driver"
+END
+
+#endif    // Spanish (Castilian) (unknown sub-lang: 0x0) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      MOVEABLE PURE   "install.exe.manifest"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Triforce\0"
+            VALUE "FileDescription", "Instalador del driver\0"
+            VALUE "FileVersion", "1.00.0000.0\0"
+            VALUE "InternalName", "TOASTVA.EXE\0"
+            VALUE "LegalCopyright", "Triforce\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "INSTALL.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "NTPAD Installer\0"
+            VALUE "ProductVersion", "1.0.0000.0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BANNER              BITMAP  DISCARDABLE     "header.bmp"
+IDB_WATERMARK           BITMAP  DISCARDABLE     "watermrk.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AVI
+//
+
+IDA_SEARCHING           AVI     MOVEABLE PURE   "SEARCH.AVI"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "ntpad.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TITLE1              "Installing / Uninstalling the driver"
+    IDS_SUBTITLE1           "Wait a moment please..."
+    IDS_TITLE2              "Congratulations! NTPAD has finished its installation correctly"
+    IDS_TITLE3              "Select what to do."
+    IDS_TITLE4              "Select the quantity and type of the devices to install"
+    IDS_UNINSTALL           "NTPAD has been successfully removed from your computer"
+    IDS_RECONFIG            "NTPAD has been reconfigured"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PORT                "Port"
+    IDS_LANG                "Please choose your language:"
+    IDS_END1                "NTPAD has been correctly installed"
+    IDS_HOWMUCH             "Select the number of pads that you are going to connect at same time:"
+    IDS_NOW                 "Select the type, port and ID of everyone"
+    IDS_WELLCOME            "Welcome to the NTPAD installation wizard"
+    IDS_TYPE                "Type"
+    IDS_CHAMULLO            "This wizard will help you to install, config or uninstall NTPAD"
+    IDS_README              "See the readme file"
+    IDS_INSTALL             "Install, update and/or configure the driver"
+    IDS_RECONFIGURE         "Reconfigure already installed driver."
+    IDS_DOUNISTALL          "Uninstall the driver"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Italy) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TITLE1              "Installando / Disinstallando il driver"
+    IDS_SUBTITLE1           "Attenda prego un momento... "
+    IDS_TITLE2              "Congratulazioni! NTPAD ha rifinito correttamente la relativa installazione"
+    IDS_TITLE3              "Selezioni che cosa fare."
+    IDS_TITLE4              "Selezioni la quantità e tipo dei dispositivi per installare"
+    IDS_UNINSTALL           "NTPAD è stato rimosso con successo dal vostro PC "
+    IDS_RECONFIG            "NTPAD è stato modificato"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PORT                "Porto"
+    IDS_LANG                "Scelga prego la vostra lingua: "
+    IDS_END1                "NTPAD è stato installato correttamente "
+    IDS_HOWMUCH             "Selezioni il numero di joysticks che state andando collegare allo stesso tempo:"
+    IDS_NOW                 "Selezioni il tipo, l'porto e l'identificazione di tutto "
+    IDS_WELLCOME            "Benvenuto al assistente dell'installazione di NTPAD "
+    IDS_TYPE                "Tipo"
+    IDS_CHAMULLO            "Questo assistente aiuterà voi per installare, config o il uninstall NTPA"
+    IDS_README              "Legga il readme"
+    IDS_INSTALL             "Installi, aggiornamento e/o configuri il driver"
+    IDS_RECONFIGURE         "Modifichi il driver già installato."
+    IDS_DOUNISTALL          "Disinstalli il driver"
+END
+
+#endif    // Italian (Italy) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TITLE1              "Instalando / Desinstalando o driver"
+    IDS_SUBTITLE1           "Por favor espere um momento"
+    IDS_TITLE2              "¡Felicitações! NTPAD finalizou sum instalaçao correctamente"
+    IDS_TITLE3              "Selecione o que fazer"
+    IDS_TITLE4              "Selecione a quantidade e o tipo dos dispositivos para instalar "
+    IDS_UNINSTALL           "NTPAD foi removido com sucesso de seu computador"
+    IDS_RECONFIG            "NTPAD foi reconfigurado"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PORT                "Porto"
+    IDS_LANG                "Escolha por favor sua língua:"
+    IDS_END1                "NTPAD foi instalado corretamente"
+    IDS_HOWMUCH             "Selecione o número dos pads que você va a conectar ao mesmo tempo:"
+    IDS_NOW                 "Selecione o tipo, o porto e o ID de cada umo"
+    IDS_WELLCOME            "Boa vinda ao assistente da instalação de NTPAD"
+    IDS_TYPE                "Tipo"
+    IDS_CHAMULLO            "Este assistente lhe ajudará a instalar, a configurar ou a desinstalar NTPAD "
+    IDS_README              "Veja a lima da ajuda"
+    IDS_INSTALL             "Instalar, actualizar e/ou configurar o driver"
+    IDS_RECONFIGURE         "Reconfigurar o driver ya instalado."
+    IDS_DOUNINSTALL         "Desinstalar o driver"
+END
+
+#endif    // Portuguese (Brazil) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_INTRO DIALOG DISCARDABLE  0, 0, 317, 193
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "NTPAD"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "",IDC_WELLCOME,115,11,189,31,NOT WS_GROUP
+    GROUPBOX        "",IDC_LANG,115,86,189,95
+    CONTROL         "Castellano / Español",IDC_ESP,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,126,99,157,11
+    CONTROL         "English",IDC_ENG,"Button",BS_AUTORADIOBUTTON,126,111,
+                    157,11
+    CONTROL         "Português",IDC_POR,"Button",BS_AUTORADIOBUTTON,126,122,
+                    149,12
+    CONTROL         "Italiano",IDC_ITA,"Button",BS_AUTORADIOBUTTON,126,134,
+                    157,11
+    CONTROL         "Japanese",IDC_JAP,"Button",BS_AUTORADIOBUTTON,126,145,
+                    157,11
+    CONTROL         "Chinese",IDC_CHI,"Button",BS_AUTORADIOBUTTON,126,156,
+                    157,11
+    LTEXT           "",IDC_CHAMULLO,116,52,188,35
+END
+
+IDD_INTERIOR1 DIALOG DISCARDABLE  0, 0, 317, 143
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "Animate1",IDC_ANIMATE1,"SysAnimate32",ACS_TRANSPARENT,
+                    148,50,20,20,WS_EX_TRANSPARENT
+END
+
+IDD_END DIALOG DISCARDABLE  0, 0, 317, 193
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "NTPAD"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "",IDC_TITLE,115,8,195,37
+    LTEXT           "",IDC_FINISH_TEXT,115,54,195,21
+    PUSHBUTTON      "",IDC_README,155,92,118,20
+END
+
+IDD_INICIAL DIALOG DISCARDABLE  0, 0, 317, 143
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "",IDC_INSTALL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_MULTILINE,47,16,157,14
+    CONTROL         "",IDC_RECONFIG,"Button",BS_AUTORADIOBUTTON | 
+                    BS_MULTILINE,47,34,157,13
+    CONTROL         "",IDC_UNINSTALL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_MULTILINE,47,53,168,10
+END
+
+IDD_CONFIG DIALOG DISCARDABLE  0, 0, 317, 178
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "",IDC_HOWMUCH,29,6,281,17
+    COMBOBOX        IDC_COMBO1,96,25,104,115,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_TIPO,63,66,150,192,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "",IDC_TYPEBOX,59,55,156,90
+    GROUPBOX        "Id:",IDC_STATIC,257,55,51,89
+    EDITTEXT        IDC_PORT,225,66,28,13,ES_RIGHT | ES_AUTOHSCROLL
+    COMBOBOX        IDC_ID,261,66,43,76,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "",IDC_PORTBOX,219,55,36,90
+    GROUPBOX        "Pad",IDC_STATIC,28,55,28,90
+    LTEXT           "1:",IDC_STATIC,45,68,8,13
+    COMBOBOX        IDC_TIPO2,63,81,150,192,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_PORT2,225,81,28,13,ES_RIGHT | ES_AUTOHSCROLL
+    COMBOBOX        IDC_ID2,261,81,43,76,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "2:",IDC_STATIC,45,83,8,13
+    COMBOBOX        IDC_TIPO3,63,96,150,192,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_PORT3,225,96,28,13,ES_RIGHT | ES_AUTOHSCROLL
+    COMBOBOX        IDC_ID3,261,96,43,76,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "3:",IDC_STATIC,45,98,8,13
+    COMBOBOX        IDC_TIPO4,63,111,150,192,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_PORT4,225,111,28,13,ES_RIGHT | ES_AUTOHSCROLL
+    COMBOBOX        IDC_ID4,261,111,43,76,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "4:",IDC_STATIC,45,113,8,13
+    COMBOBOX        IDC_TIPO5,63,126,150,192,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_PORT5,225,126,28,13,ES_RIGHT | ES_AUTOHSCROLL
+    COMBOBOX        IDC_ID5,261,126,43,76,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "5:",IDC_STATIC,45,128,8,13
+    LTEXT           "",IDC_NOW,29,40,282,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_INTRO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        VERTGUIDE, 115
+        VERTGUIDE, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+        HORZGUIDE, 8
+        HORZGUIDE, 46
+    END
+
+    IDD_INTERIOR1, DIALOG
+    BEGIN
+        LEFTMARGIN, 28
+        RIGHTMARGIN, 310
+        VERTGUIDE, 28
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_END, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 310
+        VERTGUIDE, 115
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_INICIAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 28
+        RIGHTMARGIN, 310
+        VERTGUIDE, 28
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 28
+        RIGHTMARGIN, 310
+        VERTGUIDE, 28
+        BOTTOMMARGIN, 171
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CONFIG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 1, 0
+"\000" 
+    IDC_TIPO, 0x403, 27, 0
+0x6150, 0x2064, 0x6564, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 0x6e6f, 
+0x6520, 0x206e, 0x504c, 0x3154, "\000" 
+    IDC_TIPO, 0x403, 27, 0
+0x6150, 0x2064, 0x6564, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 0x6e6f, 
+0x6520, 0x206e, 0x504c, 0x3254, "\000" 
+    IDC_TIPO, 0x403, 29, 0
+0x754d, 0x746c, 0x7469, 0x7061, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 
+0x6e6f, 0x6520, 0x206e, 0x504c, 0x3154, "\000" 
+    IDC_TIPO, 0x403, 29, 0
+0x754d, 0x746c, 0x7469, 0x7061, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 
+0x6e6f, 0x6520, 0x206e, 0x504c, 0x3254, "\000" 
+    IDC_TIPO, 0x403, 20, 0
+0x6150, 0x2064, 0x6564, 0x5320, 0x454e, 0x2053, 0x6e65, 0x4c20, 0x5450, 
+0x0031, 
+    IDC_TIPO, 0x403, 20, 0
+0x6150, 0x2064, 0x6564, 0x5320, 0x454e, 0x2053, 0x6e65, 0x4c20, 0x5450, 
+0x0032, 
+    IDC_TIPO2, 0x403, 27, 0
+0x6150, 0x2064, 0x6564, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 0x6e6f, 
+0x6520, 0x206e, 0x504c, 0x3154, "\000" 
+    IDC_TIPO2, 0x403, 27, 0
+0x6150, 0x2064, 0x6564, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 0x6e6f, 
+0x6520, 0x206e, 0x504c, 0x3254, "\000" 
+    IDC_TIPO2, 0x403, 29, 0
+0x754d, 0x746c, 0x7469, 0x7061, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 
+0x6e6f, 0x6520, 0x206e, 0x504c, 0x3154, "\000" 
+    IDC_TIPO2, 0x403, 29, 0
+0x754d, 0x746c, 0x7469, 0x7061, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 
+0x6e6f, 0x6520, 0x206e, 0x504c, 0x3254, "\000" 
+    IDC_TIPO2, 0x403, 20, 0
+0x6150, 0x2064, 0x6564, 0x5320, 0x454e, 0x2053, 0x6e65, 0x4c20, 0x5450, 
+0x0031, 
+    IDC_TIPO2, 0x403, 20, 0
+0x6150, 0x2064, 0x6564, 0x5320, 0x454e, 0x2053, 0x6e65, 0x4c20, 0x5450, 
+0x0032, 
+    IDC_TIPO3, 0x403, 27, 0
+0x6150, 0x2064, 0x6564, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 0x6e6f, 
+0x6520, 0x206e, 0x504c, 0x3154, "\000" 
+    IDC_TIPO3, 0x403, 27, 0
+0x6150, 0x2064, 0x6564, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 0x6e6f, 
+0x6520, 0x206e, 0x504c, 0x3254, "\000" 
+    IDC_TIPO3, 0x403, 29, 0
+0x754d, 0x746c, 0x7469, 0x7061, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 
+0x6e6f, 0x6520, 0x206e, 0x504c, 0x3154, "\000" 
+    IDC_TIPO3, 0x403, 29, 0
+0x754d, 0x746c, 0x7469, 0x7061, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 
+0x6e6f, 0x6520, 0x206e, 0x504c, 0x3254, "\000" 
+    IDC_TIPO3, 0x403, 20, 0
+0x6150, 0x2064, 0x6564, 0x5320, 0x454e, 0x2053, 0x6e65, 0x4c20, 0x5450, 
+0x0031, 
+    IDC_TIPO3, 0x403, 20, 0
+0x6150, 0x2064, 0x6564, 0x5320, 0x454e, 0x2053, 0x6e65, 0x4c20, 0x5450, 
+0x0032, 
+    IDC_TIPO4, 0x403, 27, 0
+0x6150, 0x2064, 0x6564, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 0x6e6f, 
+0x6520, 0x206e, 0x504c, 0x3154, "\000" 
+    IDC_TIPO4, 0x403, 27, 0
+0x6150, 0x2064, 0x6564, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 0x6e6f, 
+0x6520, 0x206e, 0x504c, 0x3254, "\000" 
+    IDC_TIPO4, 0x403, 29, 0
+0x754d, 0x746c, 0x7469, 0x7061, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 
+0x6e6f, 0x6520, 0x206e, 0x504c, 0x3154, "\000" 
+    IDC_TIPO4, 0x403, 29, 0
+0x754d, 0x746c, 0x7469, 0x7061, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 
+0x6e6f, 0x6520, 0x206e, 0x504c, 0x3254, "\000" 
+    IDC_TIPO4, 0x403, 20, 0
+0x6150, 0x2064, 0x6564, 0x5320, 0x454e, 0x2053, 0x6e65, 0x4c20, 0x5450, 
+0x0031, 
+    IDC_TIPO4, 0x403, 20, 0
+0x6150, 0x2064, 0x6564, 0x5320, 0x454e, 0x2053, 0x6e65, 0x4c20, 0x5450, 
+0x0032, 
+    IDC_TIPO5, 0x403, 27, 0
+0x6150, 0x2064, 0x6564, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 0x6e6f, 
+0x6520, 0x206e, 0x504c, 0x3154, "\000" 
+    IDC_TIPO5, 0x403, 27, 0
+0x6150, 0x2064, 0x6564, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 0x6e6f, 
+0x6520, 0x206e, 0x504c, 0x3254, "\000" 
+    IDC_TIPO5, 0x403, 29, 0
+0x754d, 0x746c, 0x7469, 0x7061, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 
+0x6e6f, 0x6520, 0x206e, 0x504c, 0x3154, "\000" 
+    IDC_TIPO5, 0x403, 29, 0
+0x754d, 0x746c, 0x7469, 0x7061, 0x5020, 0x616c, 0x7379, 0x6174, 0x6974, 
+0x6e6f, 0x6520, 0x206e, 0x504c, 0x3254, "\000" 
+    IDC_TIPO5, 0x403, 20, 0
+0x6150, 0x2064, 0x6564, 0x5320, 0x454e, 0x2053, 0x6e65, 0x4c20, 0x5450, 
+0x0031, 
+    IDC_TIPO5, 0x403, 20, 0
+0x6150, 0x2064, 0x6564, 0x5320, 0x454e, 0x2053, 0x6e65, 0x4c20, 0x5450, 
+0x0032, 
+    0
+END
+
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
